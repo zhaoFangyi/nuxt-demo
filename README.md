@@ -1,4 +1,4 @@
-# ice
+# ice-copy
 
 > Nuxt.js project
 
