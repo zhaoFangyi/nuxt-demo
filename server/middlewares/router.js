@@ -1,6 +1,7 @@
 import Router from 'koa-router'
 import config from '../config'
 import sha1 from 'sha1'
+import '../wechat'
 
 export const router = app => {
   const router = new Router()
