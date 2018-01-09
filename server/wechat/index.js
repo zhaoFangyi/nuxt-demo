@@ -6,7 +6,7 @@ const Token = mongoose.model('Token')
 
 const wechatConfig = {
   wechat: {
-    appId: config.wechat.appID,
+    appID: config.wechat.appID,
     appSecret: config.wechat.appSecret,
     token: config.wechat.token,
     getAccessToken: async () => await Token.getAccessToken(),
